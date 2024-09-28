@@ -1,35 +1,13 @@
 spring:
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+    defer-datasource-initialization: true
+  datasource:
+    url: jdbc:h2:mem:testdb
+    username: sa
   h2:
     console:
       enabled: true
-      path: /h2console
-
-    datasource:
-      url: jdbc:h2:tcp://localhost/~/socialLoginPractice
-      username: sa
-      password: 1234
-      driver-class-name: org.h2.Driver
-
-    jpa:
-      hibernate:
-        ddl-auto: create
-      properties:
-        hibernate:
-          dialect: org.hibernate.dialect.H2Dialect
-          show_sql: true
-          format_sql: true
-
-  logging:
-    level:
-      org.hibernate.SQL: debug
-
-  security:
-    oauth2:
-      client:
-        registration:
-          google:
-            client-id: {CLIENT_ID}
-            client-secret: {CLIENT_SECRET}
-            scope:
-              - profile
-              - email
