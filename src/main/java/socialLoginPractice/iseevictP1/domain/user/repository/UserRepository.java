@@ -1,7 +1,7 @@
-package socialLoginPractice.iseevictP1.domain.member.repository;
+package socialLoginPractice.iseevictP1.domain.user.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-import socialLoginPractice.iseevictP1.domain.member.entity.User;
+import socialLoginPractice.iseevictP1.domain.user.entity.User;
 
 import java.util.Optional;
 

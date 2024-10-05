@@ -1,4 +1,4 @@
-package socialLoginPractice.iseevictP1.domain.member.controller;
+package socialLoginPractice.iseevictP1.domain.user.controller;
 
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
@@ -8,8 +8,8 @@ import org.springframework.security.web.authentication.logout.SecurityContextLog
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
-import socialLoginPractice.iseevictP1.domain.member.dto.UserRequestDto;
-import socialLoginPractice.iseevictP1.domain.member.service.UserService;
+import socialLoginPractice.iseevictP1.domain.user.dto.UserRequestDto;
+import socialLoginPractice.iseevictP1.domain.user.service.UserService;
 
 @RequiredArgsConstructor
 @Controller

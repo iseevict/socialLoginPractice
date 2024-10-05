@@ -1,4 +1,4 @@
-package socialLoginPractice.iseevictP1.domain.member.dto;
+package socialLoginPractice.iseevictP1.domain.user.dto;
 
 import lombok.Getter;
 import lombok.Setter;

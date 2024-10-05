@@ -1,10 +1,10 @@
-package socialLoginPractice.iseevictP1.domain.member.service;
+package socialLoginPractice.iseevictP1.domain.user.service;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.stereotype.Service;
-import socialLoginPractice.iseevictP1.domain.member.entity.User;
-import socialLoginPractice.iseevictP1.domain.member.repository.UserRepository;
+import socialLoginPractice.iseevictP1.domain.user.entity.User;
+import socialLoginPractice.iseevictP1.domain.user.repository.UserRepository;
 
 // UserDetailsService : 사용자 정보 가져오는 인터페이스
 @RequiredArgsConstructor

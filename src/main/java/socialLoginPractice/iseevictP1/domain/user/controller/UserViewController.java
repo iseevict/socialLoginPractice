@@ -1,4 +1,4 @@
-package socialLoginPractice.iseevictP1.domain.member.controller;
+package socialLoginPractice.iseevictP1.domain.user.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;

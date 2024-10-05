@@ -11,3 +11,7 @@ spring:
   h2:
     console:
       enabled: true
+
+jwt:
+  issuer: stpark0509@gmail.com
+  secret_key: springboot-jwt-study

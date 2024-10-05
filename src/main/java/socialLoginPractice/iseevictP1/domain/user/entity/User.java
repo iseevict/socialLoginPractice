@@ -1,4 +1,4 @@
-package socialLoginPractice.iseevictP1.domain.member.entity;
+package socialLoginPractice.iseevictP1.domain.user.entity;
 
 import jakarta.persistence.*;
 import lombok.*;
